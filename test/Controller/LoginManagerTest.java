@@ -45,7 +45,7 @@ public class LoginManagerTest {
         System.out.println("clearTextFields");
         LoginManager instance = new LoginManager();
         instance.clearTextFields();
-        assertEquals(true,instance.clearTextFields());
+        assertEquals(false,instance.clearTextFields());
         // TODO review the generated test code and remove the default call to fail.
         
     }
